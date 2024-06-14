@@ -45,6 +45,7 @@ public class QuizServiceTests {
 		CreateOrUpdateReq req = new CreateOrUpdateReq(8,"午餐選擇","午餐吃甚麼",LocalDate.of(2024,05,31),//
 				LocalDate.of(2024,06,30), questionList, true);
 		quizService.createOrUpdate(req);
+		System.out.println("=====");
 	}
 	@Test
 	public void createErrorTest() {
